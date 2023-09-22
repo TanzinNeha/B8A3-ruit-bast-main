@@ -1,0 +1,493 @@
+<!doctype html>
+<html class="bg-white">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B8A3</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.5/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <style>
+
+  </style>
+</head>
+
+<body class="container-lg">
+  <header>
+
+    <nav class=" mt-5 container mx-auto w-3/4">
+      <div class="navbar bg-orange-400 text-black rounded-full p-0 ">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </label>
+            <ul tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-1 shadow bg-slate-50 rounded-box w-52 navabr-end">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+            <div class="navbar-center hidden lg:flex ">
+              <ul class="menu menu-horizontal flex">
+                <li><a>Home</a></li>
+                <li><a>About Us</a></li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Middle Section with Logo -->
+          <div class="">
+            <img src="Images/logo - Copy.png" alt="Logo" class="h-12 w-12 ">
+          </div>
+          <a class="text-xs lg:ml-5">Fruit Burst</a>
+        </div>
+        <!-- Right Section with Search Box -->
+        <div class="hidden lg:flex bg-white rounded-full items-center p-2 navbar-end">
+          <input type="text" placeholder="Search Here" class="bg-transparent">
+          <button class="text-black hover:text-white focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-4.879-4.879a8 8 0 10-1.414 1.414L21 21zm-9.803-3.192A6 6 0 1117 11h-1.5a1.5 1.5 0 00-1.499 1.356L14.5 12.5H13a8 8 0 00-6.919-12.245a1 1 0 10-1.374 1.451A10 10 0 1112 10h1.5a1.5 1.5 0 001.499-1.356L15.5 8.5H17a6 6 0 00-1.303 9.308z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <main class="mt-5 container mx-auto w-3/4">
+    <div class="carousel w-75 mt-5 relative">
+      <div id="slide1" class="carousel-item relative w-full flex items-center justify-center">
+        <div class="absolute inset-0 bg-cover bg-center " style="background-image: url('Images/banner1.png');">
+        </div>
+        <!-- Text Centered with Background Color -->
+        <div class="relative z-10 p-8  rounded-lg shadow-lg text-center text-white">
+          <h1 class="text-3xl font-bold">Exotic tastes at your </h1> <br>
+          <h1 class="text-3xl font-bold">doorstep</h1>
+          <p class="mt-4 text-xs">We supply highly quality organic products</p>
+          <div class="text-center">
+            <button
+              class="bg-rose-300 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue active:bg-rose-800 mt-2">Shop
+              Now</button>
+          </div>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide4" class="btn btn-circle">❮</a>
+          <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="images/banner2 (1).png" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide3" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide3" class="carousel-item relative w-full">
+        <img src="images/banner3.png" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide2" class="btn btn-circle">❮</a>
+          <a href="#slide4" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide4" class="carousel-item relative w-full">
+        <img src="images/banner4.png" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="container mx-auto py-96 w-1/2 absolute inset-0 mt-24 hidden lg:block">
+      <!-- White Box Background -->
+      <div class="bg-white p-2 rounded-lg shadow-lg">
+        <!-- Row of Images -->
+        <div class="flex justify-between space-x-4">
+          <!-- Image 1 -->
+          <div class="w-1/4">
+            <img src="Images/fruit1.png" alt="Image 1" class="w-full rounded-lg">
+          </div>
+
+          <!-- Image 2 -->
+          <div class="w-1/4">
+            <img src="images/fruit2 - Copy.png" alt="Image 2" class="w-full rounded-lg">
+          </div>
+
+          <!-- Image 3 -->
+          <div class="w-1/4">
+            <img src="Images/fruit4 - Copy.png" alt="Image 3" class="w-full rounded-lg">
+          </div>
+
+          <!-- Image 4 -->
+          <div class="w-1/4">
+            <img src="Images/fruit7 - Copy.png" alt="Image 4" class="w-full rounded-lg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="flex flex-col md:flex-row items-center justify-center mt-36">
+
+        <!-- Text Div -->
+        <div class="md:w-1/2 p-4 text-center">
+          <h1 class="text-2xl font-bold text-black">Deal of the day</h1>
+          <p class="text-black">Some additional information here.</p>
+
+        </div>
+
+        <!-- Timer Div -->
+        <div class="md:w-1/2 p-4 text-center">
+          <div class="rounded-full p-4">
+            <div class="text-2xl font-bold text-black" id="timer">29: 15: 25: 08</div>
+            <div class="text-x font-semibold text-black" id="timer">Days: Hours: Minutes: Seconds</div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section>
+      <div class="container mx-auto mt-8 px-4">
+
+        <!-- Cards Container -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+
+          <!-- Card 1 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <img src="Images/fruit1.png" alt="Image 1" class="w-full object-cover rounded-t-lg">
+            <h2 class="text-xl font-semibold mt-2 text-black text-center">12.90$ - 18.85$</h2>
+            <p class="text-xs font-semibold mt-2 text-black text-center"> graps</p>
+            <hr class="my-4 border-gray-300">
+            <div class="mt-2 flex justify-center items-center">
+              <div class="rating">
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" checked />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+              </div>
+
+            </div>
+            <div class="text-center">
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="btn text-xs font-semibold mt-2 text-black text-center bg-white"
+                onclick="my_modal_1.showModal()">Details</button>
+              <dialog id="my_modal_1" class="modal">
+                <div class="modal-box w-52">
+                  <h3 class="font-bold text-xs">Hello!</h3>
+                  <img src="Images/fruit1.png" alt="Image 1" class="w-52 object-cover rounded-t-lg">
+
+                  <div class="modal-action">
+                    <form method="dialog">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <img src="Images/fruit5 - Copy.png" - Copy.png" alt="Image 2" class="w-full  object-cover rounded-t-lg">
+            <h2 class="text-xl font-semibold mt-2 text-black  text-center">12.90$ - 18.85$</h2>
+            <p class="text-xs font-semibold mt-2 text-black text-center"> pomegranate</p>
+            <hr class="my-4 border-gray-300">
+            <div class="mt-2 flex justify-center items-center">
+              <div class="rating">
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" checked />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+              </div>
+
+            </div>
+            <div class="text-center">
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="btn text-xs font-semibold mt-2 text-black text-center bg-white"
+                onclick="my_modal_4.showModal()">Details</button>
+              <dialog id="my_modal_4" class="modal">
+                <div class="modal-box w-52">
+                  <h3 class="font-bold text-xs">Hello!</h3>
+                  <img src="Images/fruit5 - Copy.png" alt="Image 1" class="w-52 object-cover rounded-t-lg">
+
+                  <div class="modal-action">
+                    <form method="dialog">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <img src="Images/fruit4 - Copy.png" alt="Image 3" class="w-full  object-cover rounded-t-lg">
+            <h2 class="text-xl font-semibold mt-2 text-black  text-center">12.90$ - 18.85$</h2>
+            <p class="text-xs font-semibold mt-2 text-black text-center"> strawberry</p>
+            <hr class="my-4 border-gray-300">
+            <div class="mt-2 flex justify-center items-center">
+              <div class="rating">
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" checked />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+              </div>
+
+            </div>
+            <div class="text-center">
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="btn text-xs font-semibold mt-2 text-black text-center bg-white"
+                onclick="my_modal_3.showModal()">Details</button>
+              <dialog id="my_modal_3" class="modal">
+                <div class="modal-box w-52">
+                  <h3 class="font-bold text-xs">Hello!</h3>
+                  <img src="Images/fruit4 - Copy.png" alt="Image 1" class="w-52 object-cover rounded-t-lg">
+
+                  <div class="modal-action">
+                    <form method="dialog">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white p-4 rounded-lg shadow-md">
+            <img src="images/fruit5 - Copy.png" alt="Image 4" class="w-full  object-cover rounded-t-lg">
+            <h2 class="text-xl font-semibold mt-2 text-black  text-center">12.90$ - 18.85$</h2>
+            <p class="text-xs font-semibold mt-2 text-black text-center"> pomegranate</p>
+            <hr class="my-4 border-gray-300">
+            <div class="mt-2 flex justify-center items-center">
+              <div class="rating">
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" checked />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-300" />
+              </div>
+
+            </div>
+            <div class="text-center">
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="btn text-xs font-semibold mt-2 text-black text-center bg-white"
+                onclick="my_modal_2.showModal()">Details</button>
+              <dialog id="my_modal_2" class="modal">
+                <div class="modal-box w-52">
+                  <h3 class="font-bold text-xs">Hello!</h3>
+                  <img src="Images/fruit5 - Copy.png" alt="Image 1" class="w-52 object-cover rounded-t-lg">
+
+                  <div class="modal-action">
+                    <form method="dialog">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="text-center">
+        <button
+          class="bg-rose-300 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue active:bg-rose-800 mt-2">Shop
+          All</button>
+      </div>
+    </section>
+    <section class="mt-4">
+      <div class="bg-cover bg-center " style="background-image: url('Images/banner1.png');">
+
+        <!-- Container for Title and Avatars -->
+        <div class="bg-black bg-opacity-50 p-4 rounded-lg shadow-md text-center">
+          <h1 class="text-2xl font-bold mb-4 text-white">Meet the team section</h1>
+          <h1 class="text-xs font-bold mb-4 text-white">Contrary to popular belief, <br>
+            is not simply random text. It has roots in a piece of <br>
+            classical Latin literature from 45 BC, making it over <br>
+            2000 years old.</h1>
+          <!-- Avatars Container -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 ">
+            <!-- Avatar 1 -->
+            <div class="rounded-lg text-center">
+              <img src="Images/member1 - Copy.png" alt="Avatar 1" class="w-24 h-24 mx-auto rounded-full">
+              <p class="text-sm mt-2 text-white">Awlad Hossain</p>
+              <p class="text-sm mt-2 text-white">Fruits Expert</p>
+              <div class="flex justify-center items-center">
+                <!-- Centered Icon -->
+                <div class="text-center flex space-x-4">
+                  <svg class="w-2 h-2 text-blue-600 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                  </svg>
+                  <svg class="w-2 h-2 text-blue-300 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                  </svg>
+                  <svg class="w-2 h-2 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Avatar 2 -->
+            <div class="rounded-lg text-center">
+              <img src="Images/member2 - Copy.png" alt="Avatar 1" class="w-24 h-24 mx-auto rounded-full">
+              <p class="text-sm mt-2 text-white">Safia Chowdhury</p>
+              <p class="text-sm mt-2 text-white">Fruits Expert</p>
+              <div class="flex justify-center items-center">
+                <!-- Centered Icon -->
+                <div class="text-center flex space-x-4">
+                  <svg class="w-2 h-2 text-blue-600 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                  </svg>
+                  <svg class="w-2 h-2 text-blue-300 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                  </svg>
+                  <svg class="w-2 h-2 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Avatar 3 -->
+            <div class="rounded-lg text-center">
+              <img src="Images/member3 - Copy.png" alt="Avatar 1" class="w-24 h-24 mx-auto rounded-full">
+              <p class="text-sm mt-2 text-white">Rokib Hossain</p>
+              <p class="text-sm mt-2 text-white">Fruits Expert</p>
+              <div class="flex justify-center items-center">
+                <!-- Centered Icon -->
+                <div class="text-center flex space-x-4">
+                  <svg class="w-2 h-2 text-blue-600 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                  </svg>
+                  <svg class="w-2 h-2 text-blue-300 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                  </svg>
+                  <svg class="w-2 h-2 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Avatar 4 -->
+            <div class="rounded-lg text-center">
+              <img src="Images/member4 - Copy.png" alt="Avatar 1" class="w-24 h-24 mx-auto rounded-full">
+              <p class="text-sm mt-2 text-white">Awlad Hossain</p>
+              <p class="text-sm mt-2 text-white">Fruits Expert</p>
+              <div class="flex justify-center items-center">
+                <!-- Centered Icon -->
+                <div class="text-center flex space-x-4">
+                  <svg class="w-2 h-2 text-blue-600 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                  </svg>
+                  <svg class="w-2 h-2 text-blue-300 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                  </svg>
+                  <svg class="w-2 h-2 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded mt-2">
+    <div class="flex items-center justify-center">
+      <div class="text-center flex gap-2">
+        <div>
+          <img src="Images/logo - Copy.png" alt="Image" class="mx-auto w-12 h-12 rounded-full mb-4">
+        </div>
+        <div>
+          <h2 class="text-xl font-semibold mt-2">Fruit Burst</h2>
+        </div>
+
+      </div>
+    </div>
+    <nav class="grid grid-flow-col gap-4">
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Contact</a>
+      <a class="link link-hover">Jobs</a>
+      <a class="link link-hover">Press kit</a>
+    </nav>
+    <nav>
+      <div class="grid grid-flow-col gap-4">
+        <div class="flex justify-center items-center">
+          <!-- Centered Icon -->
+          <div class="text-center flex space-x-4">
+            <svg class="w-6 h-6 text-blue-600 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+            <svg class="w-6 h-6 text-blue-300 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+            </svg>
+            <svg class="w-6 h-6 text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path
+                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </footer>
+</body>
+
+</html>
