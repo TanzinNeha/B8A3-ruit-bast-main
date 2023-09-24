@@ -7,7 +7,7 @@
   <title>B8A3</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.5/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
-  
+  <base href="https://TanzinNeha.github.io/B8A3-ruit-bast-main/">
 </head>
 
 <body>
@@ -63,36 +63,48 @@
   <main class="mt-5 container mx-auto w-3/4">
   <section>
     <div class="carousel w-full">
-      <div id="slide1" class="carousel-item relative w-full">
-        <img src="Images/banner1.png" class="w-full" />
+      <div id="slide1" class="carousel-item relative w-full items-center justify-center">
+
+          <!-- Background Image -->
+          <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('Images/banner1.png');"></div>
+  
+          <!-- Text Centered with Background Color -->
+          <div class="relative z-10 p-8 rounded-lg text-center">
+              <h1 class="text-4xl font-bold text-white">Exotic tastes at your <br>
+                doorstep</h1>
+              <p class="mt-4 text-xl text-white">We supply highly quality organic products</p>
+              <div class="flex items-center justify-center mt-3">
+                <button class="bg-orange-300 hover:bg-orange-500 text-white font-semibold py-2 px-4 rounded-full transition duration-300 ease-in-out">Shop Now</button>
+            </div>
+          </div>
+     
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide4" class="btn btn-circle">❮</a> 
           <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
       </div> 
       <div id="slide2" class="carousel-item relative w-full">
-        <img src="Images/banner4.png" class="w-full" />
+        <img src="Images/banner2 (1).png" class="w-full" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide1" class="btn btn-circle">❮</a> 
           <a href="#slide3" class="btn btn-circle">❯</a>
         </div>
       </div> 
       <div id="slide3" class="carousel-item relative w-full">
-        <img src="Images/banner2.png" class="w-full" />
+        <img src="Images/banner3.png" class="w-full" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide2" class="btn btn-circle">❮</a> 
           <a href="#slide4" class="btn btn-circle">❯</a>
         </div>
       </div> 
       <div id="slide4" class="carousel-item relative w-full">
-        <img src="Images/banner3.png" class="w-full" />
+        <img src="Images/banner4.png" class="w-full" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide3" class="btn btn-circle">❮</a> 
           <a href="#slide1" class="btn btn-circle">❯</a>
         </div>
       </div>
     </div>
-    
   </section>
     <div class="container mx-auto py-96 w-1/2 absolute inset-0 mt-24 hidden lg:block">
       <!-- White Box Background -->
@@ -106,7 +118,7 @@
 
           <!-- Image 2 -->
           <div class="w-1/4">
-            <img src="images/fruit1.png" alt="Image 2" class="w-full rounded-lg">
+            <img src="Images/fruit1.png" alt="Image 2" class="w-full rounded-lg">
           </div>
 
           <!-- Image 3 -->
